@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+  background-color: #E2ECEB;
+}
+
+.input {
+  @apply border-b-2 p-1 w-full my-4;
+}
+
+.button {
+  @apply p-2 border w-full;
+}

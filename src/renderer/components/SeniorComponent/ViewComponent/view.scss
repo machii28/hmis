@@ -1,0 +1,15 @@
+.view {
+  height: 78vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+@media print {
+  .view {
+    padding: 0;
+  }
+
+  .image {
+    width: 100px;
+  }
+}

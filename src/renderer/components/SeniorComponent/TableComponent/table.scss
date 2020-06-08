@@ -1,0 +1,61 @@
+.table-custom {
+  padding: 10px;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  thead {
+    border-top: 1px solid #E2ECEB;
+    border-bottom: 1px solid #E2ECEB;
+    
+    tr {
+      th {
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  tbody {
+    
+    tr {
+      border-top: 1px solid #E2ECEB;
+      border-bottom: 1px solid #E2ECEB;
+      text-align: center;
+      
+      td {
+        padding: 0.5rem;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.active-pagination {
+  background-color: #425C5A;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: white;
+}
+
+.disabled-pagination {
+  background-color: #E4EBEB;
+  color: #425C5A;
+}
+
+.pagination-list {
+  display: inline-block;
+
+  .pagination-item {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+
+    .pagination-link {
+      text-align: center;
+      vertical-align: middle;
+      line-height: 50px;
+      padding: 0.5rem;
+    }
+  }
+}

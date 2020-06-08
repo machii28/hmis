@@ -1,0 +1,43 @@
+.nunito {
+  font-family: 'nunito', font-sans;
+}
+
+.border-b-1 {
+  border-bottom-width: 1px;
+}
+
+.border-l-1 {
+  border-left-width: 1px;
+}
+
+hover\:border-none:hover {
+  border-style: none;
+}
+
+.sidebar {
+  transition: ease-in-out all .3s;
+  z-index: 9999;
+  background: #425C5A !important;
+
+  span {
+      opacity: 0;
+      position: absolute;
+      transition: ease-in-out all .1s;
+      font-size: 12px;
+      line-height: 3;
+  }
+
+  a {
+      font-size: 25px;
+      color: #E1ECEB;
+  }
+
+  &:hover {
+      width: 150px;
+      box-shadow: 0 25px 50px 2px rgba(0, 0, 0, 0.25);
+  }
+
+  &:hover span {
+      opacity: 1;
+  }
+}
