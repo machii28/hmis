@@ -23,7 +23,7 @@
     "postinstall": "npm run lint:fix"
   },
   "dependencies": {
-    "apexcharts": "^3.16.0",
+    "apexcharts": "^3.24.0",
     "axios": "^0.18.0",
     "moment": "^2.24.0",
     "nedb": "^1.8.0",
